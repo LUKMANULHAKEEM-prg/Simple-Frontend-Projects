@@ -1,0 +1,32 @@
+.outer{
+    background-color: black;
+    height: 350px;
+    width: 140px;
+    margin-left: 45%; ; 
+    padding: 1%;
+    border: 20px double black;
+    border-radius: 30%;
+}
+.inner{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    margin-bottom: 15%;
+    margin-left: 13%;
+}
+#first{
+    /* margin-top: 7%; */
+    background-color: red;
+}
+#second{
+    background-color: yellow;
+}
+#third{
+    background-color: green;
+}
+body{
+    background-color: papayawhip;
+    margin-top:10% ;
+    margin-right:10% ;
+}
