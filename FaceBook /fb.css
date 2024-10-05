@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #3b5998;
+}
+.logo a{
+    color: white;
+    font-weight: 900;
+    font-size:50px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.logo{
+    transform: translate(150px,30px);
+}
+#email{
+    padding: 5px 0px;
+}
+button{
+    margin-left: 5px;
+    padding: 5px 0px;
+    border-radius: 5%;
+}
+
+
+
+.information{
+    transform: translate(60%,-40px);
+    color: white;
+    
+}
+
+.information a{
+    text-decoration: none;
+    color: #6a86c1;
+}
+
+.information button{
+    background-color: #3261c7;
+    color: white;
+    border-color: #3261c7;
+    cursor: pointer;
+}
+
+.information button:hover{
+    background-color: #3b5998;
+    border-color: #3b5998;
+}
+/* .first{
+    margin-left: 200px;
+    margin-top: 60px;
+}
+.first div h4{
+    color: #3b5998;
+    font-weight: 900;
+
+}
+.image img{
+   width: 20%;
+   height: auto;
+}
+
+.second{
+    transform: translate(60%,-350px);
+}
+.second h2{
+    font-size: 30px;
+}
+.second p{
+    transform: translateY(-10px);
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+main{
+    display:flex;
+    flex-direction: row;
+    
+}
+main{
+    background: linear-gradient(white,#D3D8E8);
+    height:700px;
+    width: 100%;
+    margin-top: 30px;
+}
+.image img{
+    width: 75%;
+    height: 300px;
+}
+.LEFT{
+    width: 50%;
+    float: left;
+    padding-left: 150px;
+}
+.RIGHT{
+    width: 50%;
+    float: left;
+}
+.LEFT h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #293d68;
+    font-weight: 700;
+}
+
+.RIGHT h2{
+    font-weight: 900;
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.RIGHT p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dob{
+    display: inline-block;
+    border-radius: 10%;
+    border-color: gray;
+}
+form div{
+    margin: 5px 0px;
+}
+.name{
+    display: inline-block;
+    border: 1px  gray;
+    border-radius: 2%;
+}
+
+#firstname{
+    padding: 5px 0px;
+}
+#surname{
+    padding: 5px 0px;
+}
+#contacts{
+    padding: 5px 0px;
+    width: 300px;
+}
+#password{
+    padding: 5px 0px;
+    width: 300px;
+}
+select{
+    padding: 5px 0px;
+}
+
+.Birthday p{
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.gender p{
+    font-weight: bold;
+    color: grey;
+    margin-bottom: 5px;
+}
+
